@@ -11,7 +11,7 @@ public class Main {
             desenOlusturma(sayi + 5, baslangicSayi, true);
         } else if (sayi > 0 && durum == false) {
             desenOlusturma(sayi - 5, baslangicSayi, false);
-        } else if (sayi > 0 && sayi != baslangicSayi && durum) {
+        } else if (sayi > 0 && sayi != baslangicSayi && durum==true) {
             desenOlusturma(sayi + 5, baslangicSayi, true);
         }
     }
