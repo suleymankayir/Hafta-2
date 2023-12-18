@@ -14,7 +14,7 @@ public class Employee {
         this.workHours = workHours;
         this.hireYear = hireYear;
     }
-
+    // to calculate tax
     void calculateTax() {
         if (this.salary > 0 && this.salary < 1000.0) {
             paidTax = 0;
@@ -23,7 +23,7 @@ public class Employee {
         }
 
     }
-
+    // to calculate employee's bonus
     void calculateBonus() {
         if (this.workHours > legalWorkHour) {
             bonus = (this.workHours - legalWorkHour) * 30;
@@ -33,7 +33,7 @@ public class Employee {
         }
 
     }
-
+    // to raise salary
     void raiseSalary() {
         if (currentYear - hireYear < 10) {
             raise += this.salary * 0.05;
@@ -43,7 +43,7 @@ public class Employee {
             raise += this.salary * 0.15;
         }
     }
-
+    // printing employee's info
     void printInfo() {
         System.out.println("Adı: " + this.name);
         System.out.println("Maaşı: " + this.salary);
