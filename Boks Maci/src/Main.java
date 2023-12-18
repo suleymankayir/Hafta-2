@@ -3,8 +3,8 @@ public class Main {
 
         Fighter f1 = new Fighter("A",15,100,90,0);
         Fighter f2 = new Fighter("B",10,95,100,0);
-        Arena r = new Arena(f1,f2,90,100);
-        r.run();
+        Arena game = new Arena(f1,f2,90,100);
+        game.run();
 
 
     }
