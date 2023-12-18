@@ -44,7 +44,9 @@ public class Employee {
         }
     }
     // printing employee's info
-    void printInfo() {
+
+
+    public String toString() {
         System.out.println("Adı: " + this.name);
         System.out.println("Maaşı: " + this.salary);
         System.out.println("Başlangıç Yılı: " + this.hireYear);
@@ -53,6 +55,7 @@ public class Employee {
         System.out.println("Maaş Artışı: " + raise);
         System.out.println("Vergi ve Bonuslar ile maas: " + (salary + bonus - paidTax));
         System.out.println("Toplam Maaş: " + (salary + bonus - paidTax + raise));
+        return null;
     }
 
 

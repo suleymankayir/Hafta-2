@@ -5,6 +5,6 @@ public class Main {
         emp1.calculateTax();
         emp1.calculateBonus();
         emp1.raiseSalary();
-        emp1.printInfo();
+        emp1.toString();
     }
 }
