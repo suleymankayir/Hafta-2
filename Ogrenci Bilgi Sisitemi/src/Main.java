@@ -20,8 +20,8 @@ public class Main {
         s1.printLessonAverage();
 
 
-        Student s2 = new Student("Ali", "317", "3", tarih, fizik, biyo);
-        s2.addBulkExamNote(78, 69, 56);
+        
+
 
 
     }
