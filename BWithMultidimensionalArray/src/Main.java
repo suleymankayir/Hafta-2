@@ -8,17 +8,17 @@ public class Main {
         for (int i = 0; i < bArr.length ; i++) {
             for (int j = 0; j < bArr[i].length; j++) {
                 if (i==0 || j ==0){
-                    System.out.print(" * ");
+                    System.out.print(" * "); // 1 space to right
                 } else if (i==3 || j == 3){
                     System.out.print(" * ");
                 } else if (i==6){
-                    System.out.print(" * ");
+                    System.out.print(" * "); // 1 space to left
                 } else {
-                    System.out.print("   ");
+                    System.out.print("   "); // 3 space for every time runs
                 }
 
             }
-            System.out.println();
+            System.out.println(); // for next line
         }
 
     }
