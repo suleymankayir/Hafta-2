@@ -7,7 +7,7 @@ public class Main {
             return 1;
         }
         int result = 1;
-        result = power(taban, us - 1) * taban;
+        result = power(taban, us - 1) * taban; // calling method again
 
         return result;
     }
