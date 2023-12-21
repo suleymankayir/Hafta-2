@@ -8,7 +8,7 @@ public class Main {
     public static boolean isPalindrome(String str) {
 
         String reversed = "";
-        for (int i = str.length() - 1; i >= 0; i--) {
+        for (int i = str.length() - 1; i >= 0; i--) { // For loop for reversed word
             reversed += str.charAt(i);
         }
         if (reversed.equals(str)) {
